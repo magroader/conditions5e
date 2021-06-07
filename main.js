@@ -161,6 +161,7 @@ Hooks.once("ready", function () {
   }
 });
 
+/*
 // Function to use token overlay to show status as wounded, unconscious, or dead
 Token.prototype._updateHealthOverlay = function () {
   let maxHP = this.actor.data.data.attributes.hp.max;
@@ -193,3 +194,4 @@ Hooks.on("updateToken", (scene, tokenData, update, options, userId) => {
 Hooks.on("updateActor", (entity, updated) => {
   if (entity.owner) entity.getActiveTokens(true).map(x => x._updateHealthOverlay());
 });
+*/

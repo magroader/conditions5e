@@ -1,10 +1,10 @@
 {
   "name": "conditions5e",
   "title": "Conditions for D&D 5e",
-  "description": "This module alters the effects in the Token HUD for D&D 5e conditions.",
-  "version": "0.4.9",
+  "description": "This module alters the effects in the Token HUD for D&D 5e conditions. Modified by Mag Roader to remove the dead/wounded stuff.",
+  "version": "0.4.10",
   "minimumCoreVersion": "0.4.5",
-  "compatibleCoreVersion": "0.6.6",
+  "compatibleCoreVersion": "0.8.6",
   "author": "trdischat",
   "systems": ["dnd5e"],
   "scripts": ["main.js", "patchlib.js"],
@@ -15,7 +15,7 @@
     "name": "English",
     "path": "lang/en.json"
   }],
-  "url": "https://github.com/trdischat/conditions5e",
-  "manifest": "https://raw.githubusercontent.com/trdischat/conditions5e/master/module.json",
-  "download": "https://github.com/trdischat/conditions5e/archive/master.zip"
+  "url": "https://github.com/magroader/conditions5e",
+  "manifest": "https://raw.githubusercontent.com/magroader/conditions5e/master/module.json",
+  "download": "https://github.com/magroader/conditions5e/archive/master.zip"
 }
